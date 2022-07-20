@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "xoxachatapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authxoxachatappc9e3ba57",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-07-20T01:03:21.504Z"
+}

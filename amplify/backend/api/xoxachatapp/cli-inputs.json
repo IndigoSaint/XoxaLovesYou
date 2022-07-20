@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "xoxachatapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Ama\\Documents\\Blockchain\\XoxaLovesYou\\xoxalovesyou\\amplify\\backend\\api\\xoxachatapp\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authxoxachatappc9e3ba57"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}
