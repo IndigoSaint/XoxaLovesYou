@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
+
+import '@aws-amplify/ui-react/styles.css';
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import { API, Auth, withSSRContext, graphqlOperation } from "aws-amplify";
 import { listMessages } from "../graphql/queries";
